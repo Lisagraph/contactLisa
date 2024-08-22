@@ -122,8 +122,12 @@ p{
 
 .headBtnInner:hover{
   	border: #a8fbd8 solid 3px;
-	color: #d4ffed;
+	color: #d4ffed !important;
 	background: #098785;
+}
+
+.headBtnInner:hover a{
+	color: #d4ffed !important;
 }
 /* Nav styling end */
 
